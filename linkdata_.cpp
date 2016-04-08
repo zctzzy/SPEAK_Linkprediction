@@ -90,7 +90,7 @@ void linkdata::ExtractFeatures()
 	// pagerank value
 	pagerank = PageRankValue();
 
-	// 遍历core中的结点，对每一个结点查找N-hop的结点
+	// search all the nodes in core and obtain the neighors of N hop
 	int count = 0;
 	for (TIntH::TIter it = core.BegI(); it < core.EndI(); it++)
 	{
@@ -185,7 +185,7 @@ void linkdata::ExtractAffTagSim()
 	id_aff = ReadAttributes(affPath);
 	id_tag = ReadAttributes(tagPath);
 
-	// 遍历core中的结点，对每一个结点查找N-hop的结点
+	// search all the nodes and obtain the neighbors of N hops
 	int count = 0;
 	for (TIntH::TIter it = core.BegI(); it < core.EndI(); it++)
 	{
@@ -584,7 +584,7 @@ void linkdata::ExtractSP()
 	// pagerank value
 	pagerank = PageRankValue();
 
-	// 遍历core中的结点，对每一个结点查找N-hop的结点
+	// search all the nodes and get the neighbors of N hops
 	int count = 0;
 	for (TIntH::TIter it = core.BegI(); it < core.EndI(); it++)
 	{
