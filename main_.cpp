@@ -10,13 +10,13 @@ using namespace std;
 
 vector<string> LoadFilePath()
 {
-	// 定义路径
-	string featurePath = "F:/DataSet/AMiner/2005-2010/second_part_train_05_09.txt";
-	string labelPath = "F:/DataSet/AMiner/2005-2010/second_part_full.txt";
-	string affPath = "F:/DataSet/AMiner/2005-2010/aff.csv";
-	string tagPath = "F:/DataSet/AMiner/2005-2010/tag.csv";
+	// path to the file
+	string featurePath = "feature.txt";
+	string labelPath = "label.txt";
+	string affPath = "aff.csv";
+	string tagPath = "tag.csv";
 
-	// 把路径放到一个vector
+	// put all the paths to a vector
 	vector<string> paths;
 	paths.push_back(featurePath);
 	paths.push_back(labelPath);
