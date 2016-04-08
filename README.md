@@ -1,6 +1,6 @@
 # SPEAK_Linkprediction
 LP with Social Pattern and External attributes Knowledges
 
-author: Chuanting Zhang
+Author: Chuanting Zhang
 
 Email: chuanting.zhang@gmail.com
