@@ -1,5 +1,5 @@
 # SPEAK_Linkprediction
-LP with Social Pattern and External attributes Knowledges
+LP with Social Pattern and External attribute Knowledge
 
 Author: Chuanting Zhang
 
